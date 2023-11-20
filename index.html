@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firewall Configuration</title>
+    <style>
+        /* Add your CSS styling here */
+    </style>
+</head>
+<body>
+    <h1>Firewall Configuration</h1>
+
+    <form id="firewallForm">
+        <label for="allowIncoming">Allow Incoming Traffic:</label>
+        <input type="checkbox" id="allowIncoming" name="allowIncoming">
+
+        <label for="allowOutgoing">Allow Outgoing Traffic:</label>
+        <input type="checkbox" id="allowOutgoing" name="allowOutgoing">
+
+        <button type="button" onclick="configureFirewall()">Apply Configuration</button>
+    </form>
+
+    <script>
+        function configureFirewall() {
+            // Add JavaScript logic to send configuration to the server
+            // This would typically involve making an AJAX request to the server
+            // to update the firewall settings based on the user's input
+            alert("Firewall configured successfully!");
+        }
+    </script>
+</body>
+</html>
